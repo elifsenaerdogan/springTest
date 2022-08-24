@@ -8,5 +8,5 @@ import org.mapstruct.Mapper;
 public interface BooksMapper {
     BooksModel entityToModel(Books book);
 
-    BooksModel modelToEntity(BooksModel booksModel);
+    Books modelToEntity(BooksModel booksModel);
 }
